@@ -161,7 +161,7 @@ async def help_command(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed)
 
 # Run the bot
-bot.run('MTQ0Nzg1NTA5MjQwODUxNjczMg.GWrjpn.aZE7pMESEDt1zIqkvf-AAadsbt1_wbefPiH1ZE')(embed=embed)
+bot.run('MTQ0Nzg1NTA5MjQwODUxNjczMg.GTuRKL.Ah2ltAOuRksMwoumhwMHnr-wKEmCZnorUcPz2M')(embed=embed)
 
 @bot.tree.command(name="mentionleaderboard", description="Show the most mentioned users")
 async def mentionleaderboard(interaction: discord.Interaction):
